@@ -32,7 +32,6 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Set your API key
-cp .env.example .env
 # Edit .env and replace "your-key-here" with your actual key
 ```
 

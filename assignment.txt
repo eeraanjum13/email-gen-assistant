@@ -1,0 +1,49 @@
+ 
+AI Engineer Candidate Assessment: Email Generation Assistant
+
+1. Project Goal: Build an Email Generation Assistant
+Objective: Create a working prototype that generates professional emails based on user input, using an LLM.
+A. The Assistant's Function
+The assistant must take three distinct inputs and produce a well-written, professional email:
+Intent: The core purpose of the email (e.g., "Follow up after meeting," "Request for proposal details.")
+Key Facts: A few bullet points of information that must be seamlessly included in the final email.
+Tone: The desired style (e.g., formal, casual, urgent, empathetic).
+B. Core Technical Requirement: Advanced Prompt Engineering
+You must use and document an advanced prompting technique (e.g., Role-Playing, Few-Shot Examples, Chain-of-Thought) to maximize output quality and reliability.
+
+2. Evaluation Strategy with Custom Metrics
+Objective: Design and implement a system to measure the assistant's performance using metrics you create specifically for this task.
+A. Test Data
+Create 10 unique input scenarios (Intent, Facts, Tone) for the model to generate emails from.
+For each scenario, write a Human Reference Email (the ideal output).
+B. Custom Evaluation Metrics Implementation
+You must define and implement three (3) custom metrics designed to judge the quality of an email generation assistant. These should use a combination of automated techniques (e.g., Python scripting, LLM-as-a-Judge) but must be tailored to this specific project.
+The Candidate Must Define and Implement:
+Custom Metric 1: _________________________
+Example Focus: Fact Recall, Specificity, or Clarity.
+Custom Metric 2: _________________________
+Example Focus: Tone Accuracy, Format Adherence, or Sentence Structure Complexity.
+Custom Metric 3: _________________________
+Example Focus: Conciseness, Introduction Effectiveness, or Grammar/Fluency.
+C. Evaluation Report
+Your script must run the 10 scenarios and output a structured file (CSV, JSON, etc.) that clearly shows:
+The Definition and Logic for each of your 3 Custom Metrics.
+The raw scores for all 10 scenarios for all 3 Custom Metrics.
+The overall average score for the model based on your metrics.
+
+3. Model Comparison and Analysis
+Objective: Run your evaluation against a second model/strategy and analyze the results.
+Run Two Models: Use your exact same 10 scenarios and Evaluation Strategy (using your 3 custom metrics) to test a second LLM or prompting approach (e.g., Model A vs. Model B).
+Analysis: Write a brief, single-page summary answering:
+Which model/strategy performed better according to your 3 custom metrics?
+What was the biggest failure mode of the lower-performing model based on your data?
+Which model do you recommend for production and why (use your custom metric data to justify it)?
+
+Deliverables
+Code Repository: A link to a GitHub repository with all code and a README explaining how to set up and execute the project.
+Final Report (PDF/Google Doc):
+The Prompt Template used.
+The Definitions and Logic for the 3 Custom Metrics.
+The raw Evaluation Data (your CSV/JSON output).
+The Comparative Analysis summary (Section 3).
+
